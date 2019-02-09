@@ -8,7 +8,13 @@ class CalcControlle{
     }
 
     initialize(){
-        
+        let displayElement = document.querySelector('#display');
+        let dateElement = document.querySelector('#data');
+        let timeElement = document.querySelector('#hora');
+
+        displayElement.innerHTML = '4567';
+        dateElement.innerHTML = '09/02/2019';
+        timeElement.innerHTML = '19:50';
     }
 
     get displayCalc(){
